@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Ejemplo de validacion en el lado del cliente</title>
+    <script src="scriptB.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilosB.css" />
+</head>
+
+<body>
+
+    <h1>Formulario de manejo de usuarios</h1>
+    <form method="get" action="resp.html" onsubmit="return validar();">
+        <p>Nombre: &nbsp; <input type="text" id="nombre" name="nombre" size="6" /></p>
+        <p> Inicial: &nbsp; <input type="text" id="inicial" name="inicial" size="1" /></p>
+        <p> Apellido: &nbsp; <input type="text" id="apellido" name="apellido" size="8" /></p>
+        <p> Edad: &nbsp; <input type="text" id="edad" name="edad" size="2" /></p>
+        <p> <input type="submit" name="Enviar" value="Enviar" /></p>
+        <br><img src="goodsmall.png"></img>
+        <p id="mensaje"></p>
+    </form>
+</body>
+
+</html>

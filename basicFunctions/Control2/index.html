@@ -1,0 +1,19 @@
+<body>
+    <h2>Figura Misterio</h2>
+    <canvas height=200 width=200></canvas>
+    <script>
+        let canvas = document.querySelector("canvas")
+        let c = canvas.getContext("2d")
+        c.lineWidth = 2
+        c.beginPath()
+        c.arc(40, 40, 40, 0, 2 * Math.PI, true)
+        c.moveTo(20, 20)
+        c.arc(25, 20, 10, 0, 2 * Math.PI, true)
+        c.moveTo(55, 20)
+        c.arc(55, 20, 10, 0, 2 * Math.PI, true)
+        c.moveTo(40, 50)
+        c.arc(40, 50, 20, Math.PI, 0, true)
+        c.lineTo(30, 50)
+        c.stroke()
+    </script>
+</body>

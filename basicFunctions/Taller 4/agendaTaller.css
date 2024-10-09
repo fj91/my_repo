@@ -1,0 +1,36 @@
+body	{
+	margin-left: 20px;
+}
+h1		{
+	color:navy;
+}
+input	{
+	width: 20rem;
+}
+
+p.false {
+	color: darkred;
+	text-decoration-line: line-through;
+}
+p.true {
+	color: navy; 
+	text-decoration:underline;
+}
+p.message 	{
+	background-color:navy; 
+	color:white; 
+	font-size: 12px;
+	width:25rem;
+	text-align:center;}
+p.activa {
+	color: navy;
+	text-decoration:underline;
+}
+p.inactiva {
+	color: darkred;
+	text-decoration-line: line-through;
+}		
+button	{
+	color:dodgerblue;
+	width: 78px;
+}
